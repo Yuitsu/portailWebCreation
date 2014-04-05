@@ -1,0 +1,91 @@
+#global{
+  width: 1560px;
+  height: 1200px;
+  background-color:white;
+  border:solid 1px black;
+  }
+
+#blocgauche{
+  width: 600px;
+  height: 500px;
+  background-color: green;
+  margin-left: 5.5%;
+  margin-top: 15%;
+  float:left;
+  }
+  
+#blocdroite{
+  width: 600px;
+  height: 500px;
+  background-color: green;
+  margin-left: 55%;
+  margin-top: 15%;
+  position:relative;
+  }
+
+  #blocbas{
+  width: 1225px;
+  height: 350px;
+  background-color: green;
+  margin-left: 15%;
+  margin-top: 2%;
+  float:left;
+  }
+  
+  .blocmini{
+  width: 300px;
+  height: 250px;
+  background-color: red;
+  margin-left: 5%;
+  margin-top: 5%;
+  float:left;
+  }
+  
+  #Menu_Gauche{
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  margin-top: 5%;
+  float:left;
+  }
+  
+  #texte{
+    vertical-align: middle;
+	text-align:center;
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+	color: white;
+  }
+
+header nav {
+    border: 2px black solid;
+    background-color: blue;
+    margin: 30px;
+    display: inline-block;
+}
+header nav ul
+{
+    list-style-type: none;
+}
+
+header nav li
+{
+    display: inline-block;
+    padding:20px; 
+    border: 2px black solid;
+}
+
+nav a
+{
+    font-size: 1.4em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
